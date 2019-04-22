@@ -1,0 +1,44 @@
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+#root > header {
+  overflow: hidden;
+  background-color: #e1e;
+  color: #ee1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#root > header > h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+#root > header > nav > ul > li {
+  display: inline-block;
+}
+
+#root > header > nav > ul > li > a {
+  color: white;
+  text-align: center;
+  padding: .2em;
+  text-decoration: none;
+}
+
+#root > footer {
+  background: #ee1;
+  color: #e1e;
+  padding: 1.5em;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+#root > main {
+  padding-top: 7em;
+  text-align: center;
+  background: green;
+}
